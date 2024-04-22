@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'pixel' ;
+    src: url('fonts/Pixelhour-R65A.ttf')format('truetype') ;
+    font-style: normal;
+}   
+ @font-face {
+    font-family:'Cute' ;
+    src: url('fonts/Cute\ Notes.ttf')format('truetype');
+ }
+
+
+ @font-face {
+    font-family: 'sticky';
+    src: url(fonts/Sticky\ Memos\ Demo\ Two.ttf)format('truetype');
+ }
+
+ @font-face {
+    font-family: 'mario';
+    src: url(fonts/Super\ Outline.ttf)format('truetype');
+ }
+
+section{
+    height: 550px;
+    width: 600px;
+    background-color: rgba(67, 108, 161, 0.342);
+    border-radius: 30px;
+    margin-left: 379px;
+    border: solid rgba(0, 0, 255, 0.199) 3px;
+    font-family: 'mario';
+    
+   
+    
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    
+    background-repeat: no-repeat;
+    background-image: url(backgrond.png);
+    background-size: cover;
+    height: 830px;
+}
+
+
+#p{
+    
+    color: rgba(255, 0, 0, 0.596);
+    width: 600px;
+    font-size: 27px;
+}
+
+#inpt{
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    background-color:black;
+    color:rgb(252, 200, 103);
+    font-family: 'mario';
+    width: 285px;
+}
+
+#imgp{
+    margin-top: 50px;
+}
+
+#pp{
+    color: rgb(252, 200, 103);
+    font-size: 17px;
+    font-family: 'mario';
+}
+
+#s{
+    height: 120px;
+    width: 800px;
+   
+}
+
+#link{
+    text-decoration: none;
+    font-size: 19px;
+    color: aqua;
+    opacity: 0;
+}
+
+
+    
+
+#verificar{
+    height: 20px;
+    width: 110px;
+    
+    
+}
+
+#bi{
+    padding: 10px;
+    border-radius: 40px;
+    background-color: black;
+}
+
+#digite{
+
+    color: rgba(166, 255, 0, 0.644);
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1px;
+    
+}
+
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(252, 200, 103);
+}
+
+a:hover{
+    transition: 0.3s ;
+    color: rgb(218, 141, 0);
+}
+
+#fpm{
+    height: 35px;
+}
